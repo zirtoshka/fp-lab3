@@ -1,6 +1,7 @@
-(ns lapa3.io 
+(ns lapa3.io
   (:require
-    [clojure.string :as str]))
+   [clojure.string :as str]))
+
 
 
 (defn validate-point [point]
@@ -11,12 +12,12 @@
 (defn parse-point [line]
   (map #(Double/parseDouble %) (str/split line #"\s+")))
 
-;; (parse-point "1 2")
+(parse-point "1 2")
 
 (defn parse-input []
   (let [input (loop [points []]
-                (let [line (str/trim (read-line))] 
-                  (if (empty? line) 
+                (let [line (str/trim (read-line))]
+                  (if (empty? line)
                     points
                     (let [point (try
                                   (parse-point line)
@@ -26,14 +27,10 @@
                                       nil)))]
                       (if point
                         (recur (conj points point))
-                        (recur points))))))]
-    (if (empty? input)
-      (do
-        (println "Ошибка: не было введено ни одной точки. Пожалуйста, введите точки в формате: X Y.")
-        (System/exit 1)) 
-      input)))
+                        (recur points))))))] 
+      input))
 
- (map #(Double/parseDouble %) (str/split "1 2" #"\s+"))
+(map #(Double/parseDouble %) (str/split "1 2" #"\s+"))
 
 (defn print-points [points]
   (doseq [point points]

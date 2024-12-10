@@ -224,3 +224,135 @@ clj꞉lapa3.core꞉> 
 clj꞉lapa3.core꞉> 
 #'lapa3.core/-main
 clj꞉lapa3.core꞉> 
+; Execution error (IllegalArgumentException) at lapa3.core/error-msg (form-init8737414681651182213.clj:40).
+; Don't know how to create ISeq from: java.lang.Long
+clj꞉lapa3.core꞉> 
+; ERROR: Unhandled REPL handler exception processing message {:op stacktrace, :id 1528, :session a50915e6-8a5c-4637-8c29-6444def45b24}
+; java.util.concurrent.ExecutionException: java.lang.ExceptionInInitializerError
+; 	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+; 	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+; 	at clojure.core$deref_future.invokeStatic(core.clj:2317)
+; 	at clojure.core$future_call$reify__8544.deref(core.clj:7041)
+; 	at clojure.core$deref.invokeStatic(core.clj:2337)
+; 	at clojure.core$pmap$step__8557$fn__8561.invoke(core.clj:7092)
+; 	at clojure.lang.LazySeq.sval(LazySeq.java:42)
+; 	at clojure.lang.LazySeq.seq(LazySeq.java:51)
+; 	at clojure.lang.RT.seq(RT.java:535)
+; 	at clojure.core$seq__5467.invokeStatic(core.clj:139)
+; 	at clojure.core$map$fn__5939.invoke(core.clj:2774)
+; 	at clojure.lang.LazySeq.sval(LazySeq.java:42)
+; 	at clojure.lang.LazySeq.seq(LazySeq.java:51)
+; 	at clojure.lang.Cons.next(Cons.java:39)
+; 	at clojure.lang.RT.next(RT.java:713)
+; 	at clojure.core$next__5451.invokeStatic(core.clj:64)
+; 	at clojure.core.protocols$fn__8249.invokeStatic(protocols.clj:169)
+; 	at clojure.core.protocols$fn__8249.invoke(protocols.clj:124)
+; 	at clojure.core.protocols$fn__8204$G__8199__8213.invoke(protocols.clj:19)
+; 	at clojure.core.protocols$seq_reduce.invokeStatic(protocols.clj:31)
+; 	at clojure.core.protocols$fn__8236.invokeStatic(protocols.clj:75)
+; 	at clojure.core.protocols$fn__8236.invoke(protocols.clj:75)
+; 	at clojure.core.protocols$fn__8178$G__8173__8191.invoke(protocols.clj:13)
+; 	at clojure.core$reduce.invokeStatic(core.clj:6886)
+; 	at clojure.core$into.invokeStatic(core.clj:6958)
+; 	at clojure.core$mapv.invokeStatic(core.clj:6970)
+; 	at cider.nrepl.inlined.deps.haystack.v0v3v3.haystack.analyzer$flag_duplicates.invokeStatic(analyzer.clj:233)
+; 	at cider.nrepl.inlined.deps.haystack.v0v3v3.haystack.analyzer$analyze_stacktrace_data.invokeStatic(analyzer.clj:348)
+; 	at cider.nrepl.inlined.deps.haystack.v0v3v3.haystack.analyzer$analyze_cause.invokeStatic(analyzer.clj:382)
+; 	at cider.nrepl.inlined.deps.haystack.v0v3v3.haystack.analyzer$analyze_causes$fn__5317.invoke(analyzer.clj:402)
+; 	at clojure.core$map$fn__5931$fn__5932.invoke(core.clj:2759)
+; 	at clojure.lang.PersistentVector.reduce(PersistentVector.java:343)
+; 	at clojure.core$transduce.invokeStatic(core.clj:6946)
+; 	at clojure.core$into.invokeStatic(core.clj:6962)
+; 	at cider.nrepl.inlined.deps.haystack.v0v3v3.haystack.analyzer$analyze_causes.invokeStatic(analyzer.clj:406)
+; 	at cider.nrepl.inlined.deps.haystack.v0v3v3.haystack.analyzer$analyze.invokeStatic(analyzer.clj:419)
+; 	at cider.nrepl.middleware.stacktrace$analyze_last_stacktrace.invokeStatic(stacktrace.clj:37)
+; 	at cider.nrepl.middleware.stacktrace$handle_analyze_last_stacktrace_op.invokeStatic(stacktrace.clj:44)
+; 	at cider.nrepl.middleware.stacktrace$handle_stacktrace_op.invokeStatic(stacktrace.clj:68)
+; 	at cider.nrepl.middleware.stacktrace$handle_stacktrace.invokeStatic(stacktrace.clj:93)
+; 	at cider.nrepl.middleware.stacktrace$handle_stacktrace.invoke(stacktrace.clj:90)
+; 	at clojure.lang.Var.invoke(Var.java:388)
+; 	at cider.nrepl$wrap_stacktrace$fn__5866.invoke(nrepl.clj:688)
+; 	at nrepl.middleware$wrap_conj_descriptor$fn__1049.invoke(middleware.clj:16)
+; 	at nrepl.middleware.sideloader$wrap_sideloader$fn__2248.invoke(sideloader.clj:108)
+; 	at nrepl.middleware$wrap_conj_descriptor$fn__1049.invoke(middleware.clj:16)
+; 	at nrepl.middleware.session$add_stdin$fn__1503.invoke(session.clj:379)
+; 	at nrepl.middleware$wrap_conj_descriptor$fn__1049.invoke(middleware.clj:16)
+; 	at cider.nrepl$wrap_log$fn__5698.invoke(nrepl.clj:387)
+; 	at nrepl.middleware$wrap_conj_descriptor$fn__1049.invoke(middleware.clj:16)
+; 	at cider.nrepl$wrap_clojuredocs$fn__5924.invoke(nrepl.clj:838)
+; 	at nrepl.middleware$wrap_conj_descriptor$fn__1049.invoke(middleware.clj:16)
+; 	at cider.nrepl$wrap_version$fn__5908.invoke(nrepl.clj:813)
+; 	at nrepl.middleware$wrap_conj_descriptor$fn__1049.invoke(middleware.clj:16)
+; 	at nrepl.middleware.lookup$wrap_lookup$fn__2211.invoke(lookup.clj:52)
+; 	at nrepl.middleware$wrap_conj_descriptor$fn__1049.invoke(middleware.clj:16)
+; 	at cider.nrepl$wrap_classpath$fn__5626.invoke(nrepl.clj:195)
+; 	at nrepl.middleware$wrap_conj_descriptor$fn__1049.invoke(middleware.clj:16)
+; 	at cider.nrepl$wrap_debug$fn__5656.invoke(nrepl.clj:221)
+; 	at nrepl.middleware$wrap_conj_descriptor$fn__1049.invoke(middleware.clj:16)
+; 	at cider.nrepl$wrap_enlighten$fn__5664.invoke(nrepl.clj:248)
+; 	at nrepl.middleware$wrap_conj_descriptor$fn__1049.invoke(middleware.clj:16)
+; 	at nrepl.middleware.session$session$fn__1488.invoke(session.clj:325)
+; 	at nrepl.middleware$wrap_conj_descriptor$fn__1049.invoke(middleware.clj:16)
+; 	at nrepl.middleware.print$wrap_print$fn__1285.invoke(print.clj:234)
+; 	at nrepl.middleware$wrap_conj_descriptor$fn__1049.invoke(middleware.clj:16)
+; 	at nrepl.server$default_handler$fn__2296.invoke(server.clj:159)
+; 	at nrepl.server$handle_STAR_.invokeStatic(server.clj:26)
+; 	at nrepl.server$handle$fn__2264.invoke(server.clj:43)
+; 	at clojure.core$binding_conveyor_fn$fn__5823.invoke(core.clj:2047)
+; 	at clojure.lang.AFn.call(AFn.java:18)
+; 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+; 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+; 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+; 	at java.base/java.lang.Thread.run(Thread.java:1575)
+; Caused by: java.lang.ExceptionInInitializerError
+; 	at java.base/java.lang.Class.forName0(Native Method)
+; 	at java.base/java.lang.Class.forName(Class.java:578)
+; 	at java.base/java.lang.Class.forName(Class.java:557)
+; 	at clojure.lang.RT.classForName(RT.java:2209)
+; 	at clojure.lang.RT.classForName(RT.java:2218)
+; 	at clojure.lang.Compiler.maybeResolveIn(Compiler.java:7455)
+; 	at clojure.core$ns_resolve.invokeStatic(core.clj:4371)
+; 	at clojure.core$ns_resolve.invokeStatic(core.clj:4360)
+; 	at orchard.java$resolve_class$fn__4785.invoke(java.clj:466)
+; 	at orchard.java$resolve_class.invokeStatic(java.clj:466)
+; 	at orchard.java$resolve_symbol.invokeStatic(java.clj:497)
+; 	at orchard.info$clj_meta.invokeStatic(info.clj:78)
+; 	at orchard.info$info_STAR_.invokeStatic(info.clj:163)
+; 	at cider.nrepl.inlined.deps.haystack.v0v3v3.haystack.analyzer$analyze_fn.invokeStatic(analyzer.clj:79)
+; 	at cider.nrepl.inlined.deps.haystack.v0v3v3.haystack.analyzer$analyze_fn.invoke(analyzer.clj:70)
+; 	at clojure.core$comp$fn__5876.invoke(core.clj:2586)
+; 	at clojure.core$comp$fn__5876.invoke(core.clj:2586)
+; 	at clojure.core$comp$fn__5876.invoke(core.clj:2586)
+; 	at cider.nrepl.inlined.deps.haystack.v0v3v3.haystack.analyzer$analyze_frame.invokeStatic(analyzer.clj:251)
+; 	at cider.nrepl.inlined.deps.haystack.v0v3v3.haystack.analyzer$analyze_frame.invoke(analyzer.clj:246)
+; 	at clojure.core$partial$fn__5908.invoke(core.clj:2641)
+; 	at clojure.core$pmap$fn__8552$fn__8553.invoke(core.clj:7089)
+; 	... 6 more
+; Caused by: Syntax error macroexpanding at (lapa3/core.clj:46:1).
+; 	at clojure.lang.Compiler.load(Compiler.java:7665)
+; 	at clojure.lang.RT.loadResourceScript(RT.java:381)
+; 	at clojure.lang.RT.loadResourceScript(RT.java:372)
+; 	at clojure.lang.RT.load(RT.java:459)
+; 	at clojure.lang.RT.load(RT.java:424)
+; 	at clojure.core$load$fn__6908.invoke(core.clj:6161)
+; 	at clojure.core$load.invokeStatic(core.clj:6160)
+; 	at clojure.core$load.doInvoke(core.clj:6144)
+; 	at
+#'lapa3.core/error-msg
+clj꞉lapa3.core꞉> 
+; Execution error (IllegalArgumentException) at lapa3.core/error-msg (form-init8737414681651182213.clj:41).
+; Don't know how to create ISeq from: java.lang.Long
+clj꞉lapa3.core꞉> 
+#'lapa3.io/parse-input
+clj꞉lapa3.io꞉> 
+#'lapa3.io/print-points
+clj꞉lapa3.io꞉> 
+#'lapa3.interpol/linear-interpolation
+clj꞉lapa3.interpol꞉> 
+; Syntax error reading source at (REPL:83:30).
+; Nested #()s are not allowed
+clj꞉lapa3.core꞉> 
+#'lapa3.io/parse-point
+clj꞉lapa3.io꞉> 
+(1.0 2.0)
+clj꞉lapa3.io꞉> 

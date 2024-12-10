@@ -1,11 +1,20 @@
 (ns lapa3.interpol)
 
-(defn linear-interpolation [[x0 y0] [x1 y1 ] step]
+(defn linear-interpolation [[x0 y0] [x1 y1] step]
   (if (> x1 x0)
     (let [slope (/ (- y1 y0) (- x1 x0))]
       (map (fn [x] [x (+ y0 (* slope (- x x0)))])
            (range x0 (+ x1 step) step)))
     (throw (ex-info "x1 must be greater than x0" {:x0 x0 :x1 x1}))))
+
+;; (defn linear-interpolation [points step]
+;;   (let [[x0 y0] (first points)
+;;         [x1 y1] (second points)]
+;;     (if (> x1 x0)
+;;       (let [slope (/ (- y1 y0) (- x1 x0))]
+;;         (map (fn [x] [x (+ y0 (* slope (- x x0)))])
+;;              (range x0 (+ x1 step) step)))
+;;       (throw (ex-info "x1 must be greater than x0" {:x0 x0 :x1 x1})))))
 
 
 ;; (linear-interpolation 1 2 3 6 0.5)
@@ -27,6 +36,7 @@
                                              y-values)))]
     (map (fn [x] [x (lagrange-poly x)])
          (range (apply min x-values) (+ (apply max x-values) step) step))))
+
 ;; (lagrange-interpolation [[0.1 1.25] [0.2 2.38] [0.3 3.79] [0.4 5.44] [0.5 7.14] ] 0.05)
 
 ;; (lagrange-interpolation [[1 1] [2 4] [3 9]] 0.5)

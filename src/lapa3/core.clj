@@ -5,6 +5,7 @@
    [clojure.tools.cli :refer [parse-opts]]
    [lapa3.interpol :refer [lagrange-interpolation linear-interpolation
                            sliding-window]]
+   [clojure.java.io :as io]
    [lapa3.io :refer [parse-input print-points]]))
 
 
@@ -43,6 +44,7 @@
          (str/join \newline errors))
     "Ошибок нет."))
 
+
 (defn exit [status msg]
   (let [output (if (zero? status) System/out System/err)]
     (.println output msg)
@@ -56,30 +58,32 @@
     (cond
       (:help options) (exit 0 (str "Usage:\n" summary))
       (empty? (:interpol-type options)) (exit 1 "Не указан тип интреполяции")
-      :else options)))
+      :else (let [interpolation-types (:interpol-type options)]
+              (if (some #{"all"} interpolation-types)
+                (assoc options :interpol-type ["linear" "lagrange"])
+                options)))))
 
 
 (defn process-input [step interpol-types]
-  (println step " -step- ")
   (let [input-data (parse-input)]
     (if (empty? input-data)
       (println "Введите точки в формате: X Y")
-      ((println input-data)
-       (println interpol-types "- types")
-       (doseq [interpol-type interpol-types]
-         (println interpol-type)
-         (let [window-size (window-sizes (keyword interpol-type))]
-           (println (str "Используется: " interpol-type))
-           (doseq [window (sliding-window input-data window-size)]
-             (let [result (case interpol-type
-                            "linear" (linear-interpolation (first window) (second window) step)
-                            "lagrange" (lagrange-interpolation window step)
-                            (throw (ex-info "Неизвестный тип интерполяции" {:type interpol-type})))]
-               (print-points result)))))))))
+      (doseq [interpol-type interpol-types]
+        (println interpol-type)
+        (let [window-size (window-sizes (keyword interpol-type))]
+          (println (str "Используется: " interpol-type))
+          (doseq [window (sliding-window input-data window-size)]
+            (let [result (case interpol-type
+                           "linear" (linear-interpolation (first window) (second window) step)
+                           "lagrange" (lagrange-interpolation window step)
+                           (throw (ex-info "Неизвестный тип интерполяции" {:type interpol-type})))]
+              (print-points result))))))))
+
+
+
 
 
 (defn -main [& args]
-  (println args "-args")
   (let [options (parse-args args)]
     (process-input (:step options) (:interpol-type options))))
 
