@@ -5,11 +5,11 @@
    [clojure.tools.cli :refer [parse-opts]]))
   
 
-(+ 1 2)
 
 (def interpolation-types
   {"linear" (+ 1 2)
-   "lagrange" (+ 2 33)})
+   "lagrange" (+ 2 33)
+   "all" (+ 3 4)})
 
 (def window-sizes
   {:linear 2
@@ -20,7 +20,6 @@
     true
     (str "Invalid interpolation type name: " type)))
 
-(validate-types "linear")
 
 (def cli-options
   [["-t" "--type NAME" "Interpolation type name"
@@ -58,8 +57,13 @@
       :else options)
     ))
 
+
+
+
+
 (defn -main [& args]
   (let [options (parse-args args)]
+    
     (println "Parsed options:" options)
     ((println "Run the program with: lein run --step <step> --type <interpolation-name>")
      (println "Performing calculations with options:" options))))
@@ -69,23 +73,4 @@
 (+ 4 2)
 
 
-
-
-(defn parse-line [line]
-  (let [[x y] (str/split line #"\s+")]
-    [(Double/parseDouble x) (Double/parseDouble y)]))
-
-(defn read-input []
-  (map parse-line (line-seq (java.io.BufferedReader. *in*))))
-
-(defn linear-interpolate [points step]
-  (let [pairs (partition 2 1 points)]
-    (mapcat
-     (fn [[[x1 y1] [x2 y2]]]
-       (let [dx (- x2 x1)
-             dy (- y2 y1)
-             slope (/ dy dx)]
-         (for [x (range x1 x2 step)]
-           [x (+ y1 (* slope (- x x1)))])))
-     pairs)))
 
