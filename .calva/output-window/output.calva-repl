@@ -114,3 +114,113 @@ clj꞉lapa3.interpol꞉> 
  [0.44999999999999996 6.301484374999998]
  [0.49999999999999994 7.139999999999998])
 clj꞉lapa3.interpol꞉> 
+([1 1] [1.5 2.25] [2.0 4.0] [2.5 6.25])
+clj꞉lapa3.interpol꞉> 
+#'lapa3.interpol/lagrange-interpolation
+clj꞉lapa3.interpol꞉> 
+([1 1] [1.5 2.25] [2.0 4.0] [2.5 6.25] [3.0 9.0])
+clj꞉lapa3.interpol꞉> 
+#'lapa3.interpol/linear-interpolation
+clj꞉lapa3.interpol꞉> 
+([1 2] [1.5 3.0] [2.0 4.0] [2.5 5.0])
+clj꞉lapa3.interpol꞉> 
+#'lapa3.interpol/linear-interpolation
+clj꞉lapa3.interpol꞉> 
+([1 2] [1.5 3.0] [2.0 4.0] [2.5 5.0] [3.0 6.0])
+clj꞉lapa3.interpol꞉> 
+#'lapa3.io/parse-input
+clj꞉lapa3.io꞉> 
+#'lapa3.interpol/sliding-window
+clj꞉lapa3.interpol꞉> 
+((1 2) (2 3) (3 4))
+clj꞉lapa3.interpol꞉> 
+nil
+clj꞉lapa3.interpol꞉> 
+((1 2 3) (2 3 4))
+clj꞉lapa3.interpol꞉> 
+; Syntax error compiling at (src/lapa3/interpol.clj:8:12).
+; Unable to resolve symbol: x2 in this context
+clj꞉lapa3.interpol꞉> 
+#'lapa3.interpol/linear-interpolation
+clj꞉lapa3.interpol꞉> 
+([1 2] [1.5 3.0] [2.0 4.0] [2.5 5.0] [3.0 6.0])
+clj꞉lapa3.interpol꞉> 
+; Execution error (ExceptionInfo) at lapa3.interpol/linear-interpolation (form-init10822470217058610169.clj:7).
+; x1 must be greater than x0
+clj꞉lapa3.interpol꞉> 
+([1 2] [1.5 3.0] [2.0 4.0] [2.5 5.0] [3.0 6.0])
+clj꞉lapa3.interpol꞉> 
+; Syntax error compiling at (src/lapa3/io.clj:8:15).
+; Unable to resolve symbol: validate-point in this context
+clj꞉lapa3.io꞉> 
+#'lapa3.io/validate-point
+clj꞉lapa3.io꞉> 
+; Syntax error reading source at (REPL:15:21).
+; Nested #()s are not allowed
+clj꞉lapa3.io꞉> 
+#'lapa3.io/print-pints
+clj꞉lapa3.io꞉> 
+#'lapa3.io/parse-input
+clj꞉lapa3.io꞉> 
+; Syntax error compiling at (src/lapa3/core.clj:118:11).
+; Unable to resolve symbol: linear-interpolation1 in this context
+clj꞉lapa3.core꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in: (cd /Users/zirtoshka/fp/lapa3; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in: (cd /Users/zirtoshka/fp/lapa3; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
+; Using host:port 127.0.0.1:50224 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉lapa3.core꞉> 
+; Jack-in done.
+clj꞉lapa3.core꞉> 
+(1.0 2.0)
+clj꞉lapa3.io꞉> 
+#'lapa3.io/parse-point
+clj꞉lapa3.io꞉> 
+(1.0 2.0)
+clj꞉lapa3.io꞉> 
+#'lapa3.interpol/lagrange-interpolation
+clj꞉lapa3.interpol꞉> 
+([1 1] [1.5 2.25] [2.0 4.0] [2.5 6.25] [3.0 9.0])
+clj꞉lapa3.interpol꞉> 
+true
+clj꞉lapa3.core꞉> 
+"Неправильное имя типа интерполяции: linea"
+clj꞉lapa3.core꞉> 
+#'lapa3.core/validate-types
+clj꞉lapa3.core꞉> 
+false
+clj꞉lapa3.core꞉> 
+#'lapa3.core/window-sizes
+clj꞉lapa3.core꞉> 
+#'lapa3.core/interpolation-types
+clj꞉lapa3.core꞉> 
+#'lapa3.core/validate-types
+clj꞉lapa3.core꞉> 
+#'lapa3.core/cli-options
+clj꞉lapa3.core꞉> 
+#'lapa3.core/error-msg
+clj꞉lapa3.core꞉> 
+#'lapa3.core/exit
+clj꞉lapa3.core꞉> 
+#'lapa3.core/parse-args
+clj꞉lapa3.core꞉> 
+#'lapa3.core/process-input
+clj꞉lapa3.core꞉> 
+#'lapa3.core/-main
+clj꞉lapa3.core꞉> 
