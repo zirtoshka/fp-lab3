@@ -41,7 +41,7 @@
     (let [[x y] (str/split line #"[;\t\s]+")]
       [(Double/parseDouble x) (Double/parseDouble y)])
     (catch Exception e
-      (println "Ошибка при парсинге строки. Завершаем программу." )
+      (println "Ошибка при парсинге строки. Завершаем программу.")
       (exit-program 1 e))))
 
 (defn my-linear-interpolation [points step]
