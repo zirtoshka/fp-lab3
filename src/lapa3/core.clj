@@ -39,9 +39,8 @@
 (defn parse-line [line]
   (try
     (let [[x y] (str/split line #"[;\t\s]+")]
-      [(Double/parseDouble x) (Double/parseDouble y)])
-    #_{:clj-kondo/ignore [:unused-binding]}
-    (catch Exception e
+      [(Double/parseDouble x) (Double/parseDouble y)]) 
+    (catch Exception _
       (println "Ошибка при парсинге строки. Завершаем программу.")
       (exit-program 1))))
 
