@@ -356,3 +356,532 @@ clj꞉lapa3.core꞉> 
 clj꞉lapa3.io꞉> 
 (1.0 2.0)
 clj꞉lapa3.io꞉> 
+#'lapa3.core/window-sizes
+clj꞉lapa3.core꞉> 
+5
+clj꞉lapa3.core꞉> 
+nil
+clj꞉lapa3.core꞉> 
+nil
+clj꞉lapa3.core꞉> 
+#'lapa3.core/interpolation-types
+clj꞉lapa3.core꞉> 
+"Линейная интерполяция"
+clj꞉lapa3.core꞉> 
+; Execution error (ArityException) at lapa3.core/eval10889 (form-init8737414681651182213.clj:197).
+; Wrong number of args (2) passed to: lapa3.interpol/linear-interpolation
+clj꞉lapa3.core꞉> 
+; Syntax error (IllegalStateException) compiling def at (src/lapa3/core.clj:54:1).
+; linear-interpolation already refers to: #'lapa3.interpol/linear-interpolation in namespace: lapa3.core
+clj꞉lapa3.core꞉> 
+; Syntax error compiling at (src/lapa3/core.clj:51:7).
+; Unable to resolve symbol: exit-program in this context
+clj꞉lapa3.core꞉> 
+#'lapa3.core/interpolation-types
+clj꞉lapa3.core꞉> 
+#'lapa3.core/window-sizes
+clj꞉lapa3.core꞉> 
+#'lapa3.core/validate-types
+clj꞉lapa3.core꞉> 
+#'lapa3.core/cli-options
+clj꞉lapa3.core꞉> 
+#'lapa3.core/exit-program
+clj꞉lapa3.core꞉> 
+#'lapa3.core/parse-line
+clj꞉lapa3.core꞉> 
+; Syntax error (IllegalStateException) compiling def at (src/lapa3/core.clj:54:1).
+; linear-interpolation already refers to: #'lapa3.interpol/linear-interpolation in namespace: lapa3.core
+clj꞉lapa3.core꞉> 
+; Syntax error (IllegalStateException) compiling def at (src/lapa3/core.clj:54:1).
+; linear-interpolation already refers to: #'lapa3.interpol/linear-interpolation in namespace: lapa3.core
+clj꞉lapa3.core꞉> 
+; Syntax error (IllegalStateException) compiling def at (src/lapa3/core.clj:54:1).
+; linear-interpolation already refers to: #'lapa3.interpol/linear-interpolation in namespace: lapa3.core
+clj꞉lapa3.core꞉> 
+; Syntax error (IllegalStateException) compiling def at (src/lapa3/core.clj:54:1).
+; linear-interpolation already refers to: #'lapa3.interpol/linear-interpolation in namespace: lapa3.core
+clj꞉lapa3.core꞉> 
+; Syntax error (IllegalStateException) compiling def at (src/lapa3/core.clj:54:1).
+; linear-interpolation already refers to: #'lapa3.interpol/linear-interpolation in namespace: lapa3.core
+clj꞉lapa3.core꞉> 
+#'lapa3.core/lagrange-polynomial
+clj꞉lapa3.core꞉> 
+; Syntax error (IllegalStateException) compiling def at (src/lapa3/core.clj:54:1).
+; linear-interpolation already refers to: #'lapa3.interpol/linear-interpolation in namespace: lapa3.core
+clj꞉lapa3.core꞉> 
+; Syntax error (IllegalStateException) compiling def at (src/lapa3/core.clj:54:1).
+; linear-interpolation already refers to: #'lapa3.interpol/linear-interpolation in namespace: lapa3.core
+clj꞉lapa3.core꞉> 
+; Syntax error (IllegalStateException) compiling def at (src/lapa3/core.clj:54:1).
+; linear-interpolation already refers to: #'lapa3.interpol/linear-interpolation in namespace: lapa3.core
+clj꞉lapa3.core꞉> 
+; Syntax error (IllegalStateException) compiling def at (src/lapa3/core.clj:54:1).
+; linear-interpolation already refers to: #'lapa3.interpol/linear-interpolation in namespace: lapa3.core
+clj꞉lapa3.core꞉> 
+; Syntax error (IllegalStateException) compiling def at (src/lapa3/core.clj:54:1).
+; linear-interpolation already refers to: #'lapa3.interpol/linear-interpolation in namespace: lapa3.core
+clj꞉lapa3.core꞉> 
+; Syntax error compiling at (src/lapa3/core.clj:178:41).
+; Unable to resolve symbol: handle-args in this context
+clj꞉lapa3.core꞉> 
+; Syntax error compiling at (src/lapa3/core.clj:178:41).
+; Unable to resolve symbol: handle-args in this context
+clj꞉lapa3.core꞉> 
+; Syntax error compiling at (src/lapa3/core.clj:178:41).
+; Unable to resolve symbol: handle-args in this context
+clj꞉lapa3.core꞉> 
+; Syntax error compiling at (src/lapa3/core.clj:178:41).
+; Unable to resolve symbol: handle-args in this context
+clj꞉lapa3.core꞉> 
+#'lapa3.core/run-app
+clj꞉lapa3.core꞉> 
+#'lapa3.core/print-errors
+clj꞉lapa3.core꞉> 
+#'lapa3.core/print-help
+clj꞉lapa3.core꞉> 
+#'lapa3.core/handle-args
+clj꞉lapa3.core꞉> 
+; Syntax error compiling at (src/lapa3/core.clj:131:38).
+; Unable to resolve symbol: sorted-points? in this context
+clj꞉lapa3.core꞉> 
+; Syntax error compiling at (src/lapa3/core.clj:114:16).
+; Unable to resolve symbol: get-interpolation in this context
+clj꞉lapa3.core꞉> 
+#'lapa3.core/get-interpolation
+clj꞉lapa3.core꞉> 
+; Syntax error compiling at (src/lapa3/core.clj:117:5).
+; Unable to resolve symbol: format-interpolation-output in this context
+clj꞉lapa3.core꞉> 
+#'lapa3.core/sorted-points?
+clj꞉lapa3.core꞉> 
+; Syntax error compiling at (src/lapa3/core.clj:95:12).
+; Unable to resolve symbol: format-output in this context
+clj꞉lapa3.core꞉> 
+#'lapa3.core/format-output
+clj꞉lapa3.core꞉> 
+; Syntax error (IllegalStateException) compiling def at (src/lapa3/core.clj:80:1).
+; lagrange-interpolation already refers to: #'lapa3.interpol/lagrange-interpolation in namespace: lapa3.core
+clj꞉lapa3.core꞉> 
+#'lapa3.core/lagrange-polynomial
+clj꞉lapa3.core꞉> 
+; Syntax error (IllegalStateException) compiling def at (src/lapa3/core.clj:80:1).
+; lagrange-interpolation already refers to: #'lapa3.interpol/lagrange-interpolation in namespace: lapa3.core
+clj꞉lapa3.core꞉> 
+; Syntax error (IllegalStateException) compiling def at (src/lapa3/core.clj:54:1).
+; linear-interpolation already refers to: #'lapa3.interpol/linear-interpolation in namespace: lapa3.core
+clj꞉lapa3.core꞉> 
+#'lapa3.core/get-interpolation
+clj꞉lapa3.core꞉> 
+#'lapa3.core/interpolate-and-print
+clj꞉lapa3.core꞉> 
+; Syntax error (IllegalStateException) compiling def at (src/lapa3/core.clj:54:1).
+; linear-interpolation already refers to: #'lapa3.interpol/linear-interpolation in namespace: lapa3.core
+clj꞉lapa3.core꞉> 
+#'lapa3.core/process-input
+clj꞉lapa3.core꞉> 
+#'lapa3.core/handle-args
+clj꞉lapa3.core꞉> 
+#'lapa3.core/print-help
+clj꞉lapa3.core꞉> 
+#'lapa3.core/print-errors
+clj꞉lapa3.core꞉> 
+#'lapa3.core/run-app
+clj꞉lapa3.core꞉> 
+#'lapa3.core/-main
+clj꞉lapa3.core꞉> 
+#'lapa3.core/format-interpolation-output
+clj꞉lapa3.core꞉> 
+#'lapa3.core/sorted-points?
+clj꞉lapa3.core꞉> 
+#'lapa3.core/format-output
+clj꞉lapa3.core꞉> 
+; Syntax error (IllegalStateException) compiling def at (src/lapa3/core.clj:80:1).
+; lagrange-interpolation already refers to: #'lapa3.interpol/lagrange-interpolation in namespace: lapa3.core
+clj꞉lapa3.core꞉> 
+#'lapa3.core/lagrange-polynomial
+clj꞉lapa3.core꞉> 
+; Syntax error (IllegalStateException) compiling def at (src/lapa3/core.clj:80:1).
+; lagrange-interpolation already refers to: #'lapa3.interpol/lagrange-interpolation in namespace: lapa3.core
+clj꞉lapa3.core꞉> 
+#'lapa3.core/parse-line
+clj꞉lapa3.core꞉> 
+#'lapa3.core/exit-program
+clj꞉lapa3.core꞉> 
+#'lapa3.core/cli-options
+clj꞉lapa3.core꞉> 
+#'lapa3.core/validate-types
+clj꞉lapa3.core꞉> 
+#'lapa3.core/interpolation-types
+clj꞉lapa3.core꞉> 
+#'lapa3.core/window-sizes
+clj꞉lapa3.core꞉> 
+; Syntax error (IllegalStateException) compiling def at (src/lapa3/core.clj:54:1).
+; linear-interpolation already refers to: #'lapa3.interpol/linear-interpolation in namespace: lapa3.core
+clj꞉lapa3.core꞉> 
+#'lapa3.core/linear-interpolation2
+clj꞉lapa3.core꞉> 
+; Syntax error (IllegalStateException) compiling def at (src/lapa3/core.clj:54:1).
+; linear-interpolation already refers to: #'lapa3.interpol/linear-interpolation in namespace: lapa3.core
+clj꞉lapa3.core꞉> 
+#'lapa3.core/linear-interpolation2
+clj꞉lapa3.core꞉> 
+#'lapa3.core/get-interpolation
+clj꞉lapa3.core꞉> 
+#'lapa3.core/linear-interpolation2
+clj꞉lapa3.core꞉> 
+; Syntax error (IllegalStateException) compiling def at (src/lapa3/core.clj:54:1).
+; linear-interpolation already refers to: #'lapa3.interpol/linear-interpolation in namespace: lapa3.core
+clj꞉lapa3.core꞉> 
+#'lapa3.core/my-linear-interpolation
+clj꞉lapa3.core꞉> 
+; Syntax error compiling at (src/lapa3/core.clj:106:5).
+; Unable to resolve symbol: my-linear-interpolation2 in this context
+clj꞉lapa3.core꞉> 
+#'lapa3.core/get-interpolation
+clj꞉lapa3.core꞉> 
+#'lapa3.core/my-linear-interpolation
+clj꞉lapa3.core꞉> 
+#'lapa3.core/lagrange-polynomial
+clj꞉lapa3.core꞉> 
+#'lapa3.core/my-lagrange-interpolation
+clj꞉lapa3.core꞉> 
+#'lapa3.core/format-output
+clj꞉lapa3.core꞉> 
+#'lapa3.core/format-interpolation-output
+clj꞉lapa3.core꞉> 
+#'lapa3.core/sorted-points?
+clj꞉lapa3.core꞉> 
+#'lapa3.core/get-interpolation
+clj꞉lapa3.core꞉> 
+#'lapa3.core/get-interpolation
+clj꞉lapa3.core꞉> 
+#'lapa3.core/interpolate-and-print
+clj꞉lapa3.core꞉> 
+#'lapa3.core/-main
+clj꞉lapa3.core꞉> 
+; Execution error (ArityException) at lapa3.core/eval11141 (form-init8737414681651182213.clj:197).
+; Wrong number of args (2) passed to: lapa3.interpol/linear-interpolation
+clj꞉lapa3.core꞉> 
+; Syntax error compiling at (src/lapa3/core.clj:197:1).
+; Unable to resolve symbol: lmy-inear-interpolation in this context
+clj꞉lapa3.core꞉> 
+([0.0 0] [1.0 2N] [2.0 4])
+clj꞉lapa3.core꞉> 
+#'lapa3.core-test/test-linear-interpolation
+clj꞉lapa3.core-test꞉> 
+; ERROR: Unhandled REPL handler exception processing message {:op clojuredocs-lookup, :id 9183, :ns lapa3.core-test, :session a50915e6-8a5c-4637-8c29-6444def45b24, :sym lapa3.core}
+; ERROR: Unhandled REPL handler exception processing message {:opjava.lang.NoClassDefFoundError: Could not initialize class lapa3.core
+;  clojuredocs-lookup, :id 	at java.base/java.lang.Class.forName0(Native Method)
+; 9184, :ns lapa3.core-test, :session a50915e6-8a5c-4637-8c29-6444def45b24, :sym	at java.base/java.lang.Class.forName(Class.java:578)
+;  lapa3.core}
+; 	at java.base/java.lang.Class.forName(Class.java:557)
+; 	at clojure.lang.RT.classForName(RT.java:2209)
+; 	at clojure.lang.RT.classForName(RT.java:2218)
+; 	at clojure.lang.Compiler.maybeResolveIn(Compiler.java:7455)
+; 	at clojure.core$ns_resolve.invokeStatic(core.clj:4371)
+; 	at clojure.core$ns_resolve.invokeStatic(core.clj:4360)
+; 	at orchard.clojuredocs$try_ns_resolve.invokeStatic(clojuredocs.clj:117)
+; 	at orchard.clojuredocs$resolve_and_find_doc.invokeStatic(clojuredocs.clj:128)
+; 	at cider.nrepl.middleware.clojuredocs$clojuredocs_lookup_reply.invokeStatic(clojuredocs.clj:10)
+; 	at cider.nrepl.middleware.clojuredocs$clojuredocs_lookup_reply.invoke(clojuredocs.clj:10)
+; 	at cider.nrepl.middleware.util.error_handling$eval6110$fn__6111.invoke(error_handling.clj:160)
+; 	at clojure.lang.MultiFn.invoke(MultiFn.java:234)
+; 	at cider.nrepl.middleware.clojuredocs$handle_clojuredocs.invokeStatic(clojuredocs.clj:28)
+; 	at cider.nrepl.middleware.clojuredocs$handle_clojuredocs.invoke(clojuredocs.clj:27)
+; 	at clojure.lang.Var.invoke(Var.java:388)
+; 	at cider.nrepl$wrap_clojuredocs$fn__5924.invoke(nrepl.clj:838)
+; 	at nrepl.middleware$wrap_conj_descriptor$fn__1049.invoke(middleware.clj:16)
+; 	at cider.nrepl$wrap_version$fn__5908.invoke(nrepl.clj:813)
+; 	at nrepl.middleware$wrap_conj_descriptor$fn__1049.invoke(middleware.clj:16)
+; 	at nrepl.middleware.lookup$wrap_lookup$fn__2211.invoke(lookup.clj:52)
+; 	at nrepl.middleware$wrap_conj_descriptor$fn__1049.invoke(middleware.clj:16)
+; 	at cider.nrepl$wrap_classpath$fn__5626.invoke(nrepl.clj:195)
+; 	at nrepl.middleware$wrap_conj_descriptor$fn__1049.invoke(middleware.clj:16)
+; 	at cider.nrepl$wrap_debug$fn__5656.invoke(nrepl.clj:221)
+; 	at nrepl.middleware$wrap_conj_descriptor$fn__1049.invoke(middleware.clj:16)
+; 	at cider.nrepl$wrap_enlighten$fn__5664.invoke(nrepl.clj:248)
+; 	at nrepl.middleware$wrap_conj_descriptor$fn__1049.invoke(middleware.clj:16)
+; 	at nrepl.middleware.session$session$fn__1488.invoke(session.clj:325)
+; 	at nrepl.middleware$wrap_conj_descriptor$fn__1049.invoke(middleware.clj:16)
+; 	at nrepl.middleware.print$wrap_print$fn__1285.invoke(print.clj:234)
+; 	at nrepl.middleware$wrap_conj_descriptor$fn__1049.invoke(middleware.clj:16)
+; 	at nrepl.server$default_handler$fn__2296.invoke(server.clj:159)
+; 	at nrepl.server$handle_STAR_.invokeStatic(server.clj:26)
+; 	at nrepl.server$handle$fn__2264.invoke(server.clj:43)
+; 	at clojure.core$binding_conveyor_fn$fn__5823.invoke(core.clj:2047)
+; 	at clojure.lang.AFn.call(AFn.java:18)
+; 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+; 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+; 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+; 	at java.base/java.lang.Thread.run(Thread.java:1575)
+; Caused by: java.lang.ExceptionInInitializerError: Exception clojure.lang.Compiler$CompilerException: Syntax error macroexpanding at (lapa3/core.clj:46:1). [in thread "clojure-agent-send-off-pool-41"]
+; 	at clojure.lang.Compiler.load(Compiler.java:7665)
+; 	at clojure.lang.RT.loadResourceScript(RT.java:381)
+; 	at clojure.lang.RT.loadResourceScript(RT.java:372)
+; 	at clojure.lang.RT.load(RT.java:459)
+; 	at clojure.lang.RT.load(RT.java:424)
+; 	at clojure.core$load$fn__6908.invoke(core.clj:6161)
+; 	at clojure.core$load.invokeStatic(core.clj:6160)
+; 	at clojure.core$load.doInvoke(core.clj:6144)
+; 	at clojure.lang.RestFn.invoke(RestFn.java:408)
+; 	at clojure.lang.Var.invoke(Var.java:384)
+; 	at clojure.lang.Util.loadWithClass(Util.java:251)
+; 	at lapa3.core.<clinit>(Unknown Source)
+; 	at java.base/java.lang.Class.forName0(Native Method)
+; 	at java.base/java.lang.Class.forName(Class.java:578)
+; 	at java.base/java.lang.Class.forName(Class.java:557)
+; 	at clojure.lang.RT.classForName(RT.java:2209)
+; 	at clojure.lang.RT.classForName(RT.java:2218)
+; 	at clojure.lang.Compiler.maybeResolveIn(Compiler.java:7455)
+; 	at clojure.core$ns_resolve.invokeStatic(core.clj:4371)
+; 	at clojure.core$ns_resolve.invokeStatic(core.clj:4360)
+; 	at orchard.java$resolve_class$fn__4785.invoke(java.clj:466)
+; 	at orchard.java$resolve_class.invokeStatic(java.clj:466)
+; 	at orchard.java$resolve_symbol.invokeStatic(java.clj:497)
+; 	at orchard.info$clj_meta.invokeStatic(info.clj:78)
+; 	at orchard.info$info_STAR_.invokeStatic(info.clj:163)
+; 	at cider.nrepl.inlined.deps.haystack.v0v3v3.haystack.analyzer$analyze_fn.invokeStatic(analyzer.clj:79)
+; 	at cider.nrepl.inlined.deps.haystack.v0v3v3.haystack.analyzer$analyze_fn.invoke(analyzer.clj:70)
+; 	at clojure.core$comp$fn__5876.invoke(core.clj:2586)
+; 	at clojure.core$comp$fn__5876.invoke(core.clj:2586)
+; 	at clojure.core$comp$fn__5876.invoke(core.clj:2586)
+; 	at cider.nrepl.inlined.deps.haystack.v0v3v3.haystack.analyzer$analyze_frame.invokeStatic(analyzer.clj:251)
+; 	at cider.nrepl.inlined.deps.haystack.v0v3v3.haystack.analyzer$analyze_frame.invoke(analyzer.clj:246)
+; 	at clojure.core$partial$fn__5908.invoke(core.clj:2641)
+; 	at clojure.core$pmap$fn__8552$fn__8553.invoke(core.clj:7089)
+; 	... 6 more
+; java.lang.NoClassDefFoundError: Could not initialize class lapa3.core
+; 	at java.base/java.lang.Class.forName0(Native Method)
+; 	at java.base/java.lang.Class.forName(Class.java:578)
+; 	at java.base/java.lang.Class.forName(Class.java:557)
+; 	at clojure.lang.RT.classForName(RT.java:2209)
+; 	at clojure.lang.RT.classForName(RT.java:2218)
+; 	at clojure.lang.Compiler.maybeResolveIn(Compiler.java:7455)
+; 	at clojure.core$ns_resolve.invokeStatic(core.clj:4371)
+; 	at clojure.core$ns_resolve.invokeStatic(core.clj:4360)
+; 	at orchard.clojuredocs$try_ns_resolve.invokeStatic(clojuredocs.clj:117)
+; 	at orchard.clojuredocs$resolve_and_find_doc.invokeStatic(clojuredocs.clj:128)
+; 	at cider.nrepl.middleware.clojuredocs$clojuredocs_lookup_reply.invokeStatic(clojuredocs.clj:10)
+; 	at cider.nrepl.middleware.clojuredocs$clojuredocs_lookup_reply.invoke(clojuredocs.clj:10)
+; 	at cider.nrepl.middleware.util.error_handling$eval6110$fn__6111.invoke(error_handling.clj:160)
+; 	at clojure.lang.MultiFn.invoke(MultiFn.java:234)
+; 	at cider.nrepl.middleware.clojuredocs$handle_clojuredocs.invokeStatic(clojuredocs.clj:28)
+; 	at cider.nrepl.middleware.clojuredocs$handle_clojuredocs.invoke(clojuredocs.clj:27)
+; 	at clojure.lang.Var.invoke(Var.java:388)
+; 	at cider.nrepl$wrap_clojuredocs$fn__5924.invoke(nrepl.clj:838)
+; 	at nrepl.middleware$wrap_conj_descriptor$fn__1049.invoke(middleware.clj:16)
+; 	at cider.nrepl$wrap_version$fn__5908.invoke(nrepl.clj:813)
+; 	at nrepl.middleware$wrap_conj_descriptor$fn__1049.invoke(middleware.clj:16)
+; 	at nrepl.middleware.lookup$wrap_lookup$fn__2211.invoke(lookup.clj:52)
+; 	at nrepl.middleware$wrap_conj_descriptor$fn__1049.invoke(middleware.clj:16)
+; 	at cider.nrepl$wrap_classpath$fn__5626.invoke(nrepl.clj:195)
+; 	at nrepl.middleware$wrap_conj_descriptor$fn__1049.invoke(middleware.clj:16)
+; 	at cider.nrepl$wrap_debug$fn__5656.invoke(nrepl.clj:221)
+; 	at nrepl.middleware$wrap_conj_descriptor$fn__1049.invoke(middleware.clj:16)
+; 	at cider.nrepl$wrap_enlighten$fn__5664.invoke(nrepl.clj:248)
+; 	at nrepl.middleware$wrap_conj_descriptor$fn__1049.invoke(middleware.clj:16)
+; 	at nrepl.middleware.session$session$fn__1488.invoke(session.clj:325)
+; 	at nrepl.middleware$wrap_conj_descriptor$fn__1049.invoke(middleware.clj:16)
+; 	at nrepl.middleware.print$wrap_print$fn__1285.invoke(print.clj:234)
+; 	at nrepl.middleware$wrap_conj_descriptor$fn__1049.invoke(middleware.clj:16)
+; 	at nrepl.server$default_handler$fn__2296.invoke(server.clj:159)
+; 	at nrepl.server$handle_STAR_.invokeStatic(server.clj:26)
+; 	at nrepl.server$handle$fn__2264.invoke(server.clj:43)
+; 	at clojure.core$binding_conveyor_fn$fn__5823.invoke(core.clj:2047)
+; 	at clojure.lang.AFn.call(AFn.java:18)
+; 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+; 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+; 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+; 	at java.base/java.lang.Thread.run(Thread.java:1575)
+; Caused by: java.lang.ExceptionInInitializerError: Exception clojure.lang.Compiler$CompilerException: Syntax error macroexpanding at (lapa3/core.clj:46:1). [in thread "clojure-agent-send-off-pool-41"]
+; 	at clojure.lang.Compiler.load(Compiler.java:7665)
+; 	at clojure.lang.RT.loadResourceScript(RT.java:381)
+; 	at clojure.lang.RT.loadResourceScript(RT.java:372)
+; 	at clojure.lang.RT.load(RT.java:459)
+; 	at clojure.lang.RT.load(RT.java:424)
+; 	at clojure.core$load$fn__6908.invoke(core.clj:6161)
+; 	at clojure.core$load.invokeStatic(core.clj:6160)
+; 	at clojure.core$load.doInvoke(core.clj:6144)
+; 	at clojure.lang.RestFn.invoke(RestFn.java:408)
+; 	at clojure.lang.Var.invoke(Var.java:384)
+; 	at clojure.lang.Util.loadWithClass(Util.java:251)
+; 	at lapa3.core.<clinit>(Unknown Source)
+; 	at java.base/java.lang.Class.forName0(Native Method)
+; 	at java.base/java.lang.Class.forName(Class.java:578)
+; 	at java.base/java.lang.Class.forName(Class.java:557)
+; 	at clojure.lang.RT.classForName(RT.java:2209)
+; 	at clojure.lang.RT.classForName(RT.java:2218)
+; 	at clojure.lang.Compiler.maybeResolveIn(Compiler.java:7455)
+; 	at clojure.core$ns_resolve.invokeStatic(core.clj:4371)
+; 	at clojure.core$ns_resolve.invokeStatic(core.clj:4360)
+; 	at orchard.java$resolve_class$fn__4785.invoke(java.clj:466)
+; 	at orchard.java$resolve_class.invokeStatic(java.clj:466)
+; 	at orchard.java$resolve_symbol.invokeStatic(
+#'lapa3.core/my-linear-interpolation
+clj꞉lapa3.core꞉> 
+; Syntax error (IllegalStateException) compiling def at (src/lapa3/core.clj:54:1).
+; linear-interpolation already refers to: #'lapa3.interpol/linear-interpolation in namespace: lapa3.core
+clj꞉lapa3.core꞉> 
+#'lapa3.core/my-linear-interpolation
+clj꞉lapa3.core꞉> 
+#'lapa3.core-test/test-linear-interpolation
+clj꞉lapa3.core-test꞉> 
+#'lapa3.core-test/test-linear-interpolation
+clj꞉lapa3.core-test꞉> 
+; ERROR: Unhandled REPL handler exception processing message {:op clojuredocs-lookup, :id 9237, :ns lapa3.core-test, :session a50915e6-8a5c-4637-8c29-6444def45b24, :sym lapa3.core}
+; java.lang.NoClassDefFoundError: Could not initialize class lapa3.core
+; 	at java.base/java.lang.Class.forName0(Native Method)
+; 	at java.base/java.lang.Class.forName(Class.java:578)
+; 	at java.base/java.lang.Class.forName(Class.java:557)
+; 	at clojure.lang.RT.classForName(RT.java:2209)
+; 	at clojure.lang.RT.classForName(RT.java:2218)
+; 	at clojure.lang.Compiler.maybeResolveIn(Compiler.java:7455)
+; 	at clojure.core$ns_resolve.invokeStatic(core.clj:4371)
+; 	at clojure.core$ns_resolve.invokeStatic(core.clj:4360)
+; 	at orchard.clojuredocs$try_ns_resolve.invokeStatic(clojuredocs.clj:117)
+; 	at orchard.clojuredocs$resolve_and_find_doc.invokeStatic(clojuredocs.clj:128)
+; 	at cider.nrepl.middleware.clojuredocs$clojuredocs_lookup_reply.invokeStatic(clojuredocs.clj:10)
+; 	at cider.nrepl.middleware.clojuredocs$clojuredocs_lookup_reply.invoke(clojuredocs.clj:10)
+; 	at cider.nrepl.middleware.util.error_handling$eval6110$fn__6111.invoke(error_handling.clj:160)
+; 	at clojure.lang.MultiFn.invoke(MultiFn.java:234)
+; 	at cider.nrepl.middleware.clojuredocs$handle_clojuredocs.invokeStatic(clojuredocs.clj:28)
+; 	at cider.nrepl.middleware.clojuredocs$handle_clojuredocs.invoke(clojuredocs.clj:27)
+; 	at clojure.lang.Var.invoke(Var.java:388)
+; 	at cider.nrepl$wrap_clojuredocs$fn__5924.invoke(nrepl.clj:838)
+; 	at nrepl.middleware$wrap_conj_descriptor$fn__1049.invoke(middleware.clj:16)
+; 	at cider.nrepl$wrap_version$fn__5908.invoke(nrepl.clj:813)
+; 	at nrepl.middleware$wrap_conj_descriptor$fn__1049.invoke(middleware.clj:16)
+; 	at nrepl.middleware.lookup$wrap_lookup$fn__2211.invoke(lookup.clj:52)
+; 	at nrepl.middleware$wrap_conj_descriptor$fn__1049.invoke(middleware.clj:16)
+; 	at cider.nrepl$wrap_classpath$fn__5626.invoke(nrepl.clj:195)
+; 	at nrepl.middleware$wrap_conj_descriptor$fn__1049.invoke(middleware.clj:16)
+; 	at cider.nrepl$wrap_debug$fn__5656.invoke(nrepl.clj:221)
+; 	at nrepl.middleware$wrap_conj_descriptor$fn__1049.invoke(middleware.clj:16)
+; 	at cider.nrepl$wrap_enlighten$fn__5664.invoke(nrepl.clj:248)
+; 	at nrepl.middleware$wrap_conj_descriptor$fn__1049.invoke(middleware.clj:16)
+; 	at nrepl.middleware.session$session$fn__1488.invoke(session.clj:325)
+; 	at nrepl.middleware$wrap_conj_descriptor$fn__1049.invoke(middleware.clj:16)
+; 	at nrepl.middleware.print$wrap_print$fn__1285.invoke(print.clj:234)
+; 	at nrepl.middleware$wrap_conj_descriptor$fn__1049.invoke(middleware.clj:16)
+; 	at nrepl.server$default_handler$fn__2296.invoke(server.clj:159)
+; 	at nrepl.server$handle_STAR_.invokeStatic(server.clj:26)
+; 	at nrepl.server$handle$fn__2264.invoke(server.clj:43)
+; 	at clojure.core$binding_conveyor_fn$fn__5823.invoke(core.clj:2047)
+; 	at clojure.lang.AFn.call(AFn.java:18)
+; 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+; 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+; 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+; 	at java.base/java.lang.Thread.run(Thread.java:1575)
+; Caused by: java.lang.ExceptionInInitializerError: Exception clojure.lang.Compiler$CompilerException: Syntax error macroexpanding at (lapa3/core.clj:46:1). [in thread "clojure-agent-send-off-pool-41"]
+; 	at clojure.lang.Compiler.load(Compiler.java:7665)
+; ERROR: 	at clojure.lang.RT.loadResourceScript(RT.java:381)
+; Unhandled REPL handler exception processing message {	at clojure.lang.RT.loadResourceScript(RT.java:372)
+; :op clojuredocs-lookup	at clojure.lang.RT.load(RT.java:459)
+; , :id 	at clojure.lang.RT.load(RT.java:424)
+; 9238, :ns 	at clojure.core$load$fn__6908.invoke(core.clj:6161)
+; lapa3.core-test, :session 	at clojure.core$load.invokeStatic(core.clj:6160)
+; a50915e6-8a5c-4637-8c29-6444def45b24	at clojure.core$load.doInvoke(core.clj:6144)
+; , :sym 	at clojure.lang.RestFn.invoke(RestFn.java:408)
+; lapa3.core}
+; 	at clojure.lang.Var.invoke(Var.java:384)
+; 	at clojure.lang.Util.loadWithClass(Util.java:251)
+; 	at lapa3.core.<clinit>(Unknown Source)
+; 	at java.base/java.lang.Class.forName0(Native Method)
+; 	at java.base/java.lang.Class.forName(Class.java:578)
+; 	at java.base/java.lang.Class.forName(Class.java:557)
+; 	at clojure.lang.RT.classForName(RT.java:2209)
+; 	at clojure.lang.RT.classForName(RT.java:2218)
+; 	at clojure.lang.Compiler.maybeResolveIn(Compiler.java:7455)
+; 	at clojure.core$ns_resolve.invokeStatic(core.clj:4371)
+; 	at clojure.core$ns_resolve.invokeStatic(core.clj:4360)
+; 	at orchard.java$resolve_class$fn__4785.invoke(java.clj:466)
+; 	at orchard.java$resolve_class.invokeStatic(java.clj:466)
+; 	at orchard.java$resolve_symbol.invokeStatic(java.clj:497)
+; 	at orchard.info$clj_meta.invokeStatic(info.clj:78)
+; 	at orchard.info$info_STAR_.invokeStatic(info.clj:163)
+; 	at cider.nrepl.inlined.deps.haystack.v0v3v3.haystack.analyzer$analyze_fn.invokeStatic(analyzer.clj:79)
+; 	at cider.nrepl.inlined.deps.haystack.v0v3v3.haystack.analyzer$analyze_fn.invoke(analyzer.clj:70)
+; 	at clojure.core$comp$fn__5876.invoke(core.clj:2586)
+; 	at clojure.core$comp$fn__5876.invoke(core.clj:2586)
+; 	at clojure.core$comp$fn__5876.invoke(core.clj:2586)
+; 	at cider.nrepl.inlined.deps.haystack.v0v3v3.haystack.analyzer$analyze_frame.invokeStatic(analyzer.clj:251)
+; 	at cider.nrepl.inlined.deps.haystack.v0v3v3.haystack.analyzer$analyze_frame.invoke(analyzer.clj:246)
+; 	at clojure.core$partial$fn__5908.invoke(core.clj:2641)
+; 	at clojure.core$pmap$fn__8552$fn__8553.invoke(core.clj:7089)
+; 	... 6 more
+; java.lang.NoClassDefFoundError: Could not initialize class lapa3.core
+; 	at java.base/java.lang.Class.forName0(Native Method)
+; 	at java.base/java.lang.Class.forName(Class.java:578)
+; 	at java.base/java.lang.Class.forName(Class.java:557)
+; 	at clojure.lang.RT.classForName(RT.java:2209)
+; 	at clojure.lang.RT.classForName(RT.java:2218)
+; 	at clojure.lang.Compiler.maybeResolveIn(Compiler.java:7455)
+; 	at clojure.core$ns_resolve.invokeStatic(core.clj:4371)
+; 	at clojure.core$ns_resolve.invokeStatic(core.clj:4360)
+; 	at orchard.clojuredocs$try_ns_resolve.invokeStatic(clojuredocs.clj:117)
+; 	at orchard.clojuredocs$resolve_and_find_doc.invokeStatic(clojuredocs.clj:128)
+; 	at cider.nrepl.middleware.clojuredocs$clojuredocs_lookup_reply.invokeStatic(clojuredocs.clj:10)
+; 	at cider.nrepl.middleware.clojuredocs$clojuredocs_lookup_reply.invoke(clojuredocs.clj:10)
+; 	at cider.nrepl.middleware.util.error_handling$eval6110$fn__6111.invoke(error_handling.clj:160)
+; 	at clojure.lang.MultiFn.invoke(MultiFn.java:234)
+; 	at cider.nrepl.middleware.clojuredocs$handle_clojuredocs.invokeStatic(clojuredocs.clj:28)
+; 	at cider.nrepl.middleware.clojuredocs$handle_clojuredocs.invoke(clojuredocs.clj:27)
+; 	at clojure.lang.Var.invoke(Var.java:388)
+; 	at cider.nrepl$wrap_clojuredocs$fn__5924.invoke(nrepl.clj:838)
+; 	at nrepl.middleware$wrap_conj_descriptor$fn__1049.invoke(middleware.clj:16)
+; 	at cider.nrepl$wrap_version$fn__5908.invoke(nrepl.clj:813)
+; 	at nrepl.middleware$wrap_conj_descriptor$fn__1049.invoke(middleware.clj:16)
+; 	at nrepl.middleware.lookup$wrap_lookup$fn__2211.invoke(lookup.clj:52)
+; 	at nrepl.middleware$wrap_conj_descriptor$fn__1049.invoke(middleware.clj:16)
+; 	at cider.nrepl$wrap_classpath$fn__5626.invoke(nrepl.clj:195)
+; 	at nrepl.middleware$wrap_conj_descriptor$fn__1049.invoke(middleware.clj:16)
+; 	at cider.nrepl$wrap_debug$fn__5656.invoke(nrepl.clj:221)
+; 	at nrepl.middleware$wrap_conj_descriptor$fn__1049.invoke(middleware.clj:16)
+; 	at cider.nrepl$wrap_enlighten$fn__5664.invoke(nrepl.clj:248)
+; 	at nrepl.middleware$wrap_conj_descriptor$fn__1049.invoke(middleware.clj:16)
+; 	at nrepl.middleware.session$session$fn__1488.invoke(session.clj:325)
+; 	at nrepl.middleware$wrap_conj_descriptor$fn__1049.invoke(middleware.clj:16)
+; 	at nrepl.middleware.print$wrap_print$fn__1285.invoke(print.clj:234)
+; 	at nrepl.middleware$wrap_conj_descriptor$fn__1049.invoke(middleware.clj:16)
+; 	at nrepl.server$default_handler$fn__2296.invoke(server.clj:159)
+; 	at nrepl.server$handle_STAR_.invokeStatic(server.clj:26)
+; 	at nrepl.server$handle$fn__2264.invoke(server.clj:43)
+; 	at clojure.core$binding_conveyor_fn$fn__5823.invoke(core.clj:2047)
+; 	at clojure.lang.AFn.call(AFn.java:18)
+; 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+; 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+; 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+; 	at java.base/java.lang.Thread.run(Thread.java:1575)
+; Caused by: java.lang.ExceptionInInitializerError: Exception clojure.lang.Compiler$CompilerException: Syntax error macroexpanding at (lapa3/core.clj:46:1). [in thread "clojure-agent-send-off-pool-41"]
+; 	at clojure.lang.Compiler.load(Compiler.java:7665)
+; 	at clojure.lang.RT.loadResourceScript(RT.java:381)
+; 	at clojure.lang.RT.loadResourceScript(RT.java:372)
+; 	at clojure.lang.RT.load(RT.java:459)
+; 	at clojure.lang.RT.load(RT.java:424)
+; 	at clojure.core$load$fn__6908.invoke(core.clj:6161)
+; 	at clojure.core$load.invokeStatic(core.clj:6160)
+; 	at clojure.core$load.doInvoke(core.clj:6144)
+; 	at clojure.lang.RestFn.invoke(RestFn.java:408)
+; 	at clojure.lang.Var.invoke(Var.java:384)
+; 	at clojure.lang.Util.loadWithClass(Util.java:251)
+; 	at lapa3.core.<clinit>(Unknown Source)
+; 	at java.base/java.lang.Class.forName0(Native Method)
+; 	at java.base/java.lang.Class.forName(Class.java:578)
+; 	at java.base/java.lang.Class.forName(Class.java:557)
+; 	at clojure.lang.RT.classForName(RT.java:2209)
+; 	at clojure.lang.RT.classForName(RT.java:2218)
+; 	at clojure.lang.Compiler.maybeResolveIn(Compiler.java:7455)
+; 	at clojure.core$ns_resolve.invokeStatic(core.clj:4371)
+; 	at clojure.core$ns_resolve.invokeStatic(core.clj:4360)
+; 	at orchard.java$resolve_class$fn__4785.invoke(java.clj:466)
+; 	at orchard.java$resolve_class.invokeStatic(java.clj:466)
+; 	at orchard.java$resolve_symbol.invokeStatic(java.clj:497)
+; 	at orchard.info$clj_meta.invokeStatic(info.clj:78)
+; 	at orchard.info$info_STAR_.invokeStatic(info.clj:163)
+; 	at cider.nrepl.inlined.deps.haystack.v0v3v3.haystack.analyzer$analyze_fn.invokeStatic(analyzer.clj:79)
+; 	at cider.nrepl.inlined.deps.haystack.v0v3v3.haystack.analyzer$analyze_fn.invoke(analyzer.clj:70)
+; 	at clojure.core$comp$fn__587
+([0.0 0] [1.0 2.0] [2.0 4.0])
+clj꞉lapa3.core꞉> 
+([0 0] [1.0 1.0] [2.0 4.0])
+clj꞉lapa3.core꞉> 
