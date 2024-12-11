@@ -4,18 +4,14 @@
    [clojure.string :as str]
    [clojure.tools.cli :refer [parse-opts]]))
 
-
 (def window-sizes
   {:linear 2
    :lagrange 5})
-
 
 (def interpolation-types
   {:linear "Линейная интерполяция"
    :lagrange "Лагранжевская интерполяция"
    :all "Обе интерполяции"})
-
-
 
 (defn validate-types [type]
   (contains? interpolation-types (keyword type)))
@@ -33,14 +29,12 @@
    ["-H"  "--HELP" "Показать справочку"
     :id :help]])
 
-
 (defn exit-program
   ([code]
    (System/exit code))
   ([code message]
    (println message)
    (System/exit code)))
-
 
 (defn parse-line [line]
   (try
@@ -49,7 +43,6 @@
     (catch Exception e
       (println "Ошибка при парсинге строки. Завершаем программу.")
       (exit-program 1))))
-
 
 (defn my-linear-interpolation [points step]
   (let [[p1 p2] points
@@ -81,9 +74,6 @@
   (let [x-values (range start-x (+ end-x step) step)]
     (map (fn [x] [x (lagrange-polynomial points x)]) x-values)))
 
-
-
-
 (defn format-output [x-values y-values]
   (let [x-str (str/join "\t" (map #(format "%.2f" %) x-values))
         y-str (str/join "\t" (map #(format "%.2f" %) y-values))]
@@ -94,11 +84,8 @@
                    interpolation-type start-x end-x))
   (println (format-output x-values y-values)))
 
-
 (defn sorted-points? [points]
   (apply <= (map first points)))
-
-
 
 (defn get-interpolation [interpolation-type window step]
   (cond
@@ -117,8 +104,6 @@
     (format-interpolation-output x-values y-values
                                  (first x-values) (last x-values)
                                  (interpolation-types (keyword interpolation-type)))))
-
-
 
 (defn process-input [step algorithm]
   (loop [points []]
@@ -144,7 +129,6 @@
           (recur sorted-points))
         (recur points)))))
 
-
 (defn handle-args [args]
   (let [{:keys [options errors]} (parse-opts args cli-options)]
     (cond
@@ -157,7 +141,6 @@
   (println "Опции:")
   (doseq [[short long desc & {:keys [default]}] cli-options]
     (println (str short ", " long "  " desc (when default (str " (по умолчанию: " default ")"))))))
-
 
 (defn print-errors [errors]
   (println "Ошибки:")

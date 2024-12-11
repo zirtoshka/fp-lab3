@@ -2,7 +2,6 @@
   (:require [clojure.test :refer :all]
             [lapa3.core :refer :all]))
 
-
 (deftest test-linear-interpolation
   (testing "Линейная интерполяция для двух точек"
     (let [points [[0 0] [2 4]]
