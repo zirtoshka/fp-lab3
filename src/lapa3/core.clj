@@ -40,9 +40,10 @@
   (try
     (let [[x y] (str/split line #"[;\t\s]+")]
       [(Double/parseDouble x) (Double/parseDouble y)])
+    #_{:clj-kondo/ignore [:unused-binding]}
     (catch Exception e
       (println "Ошибка при парсинге строки. Завершаем программу.")
-      (exit-program 1 e))))
+      (exit-program 1))))
 
 (defn my-linear-interpolation [points step]
   (let [[p1 p2] points
